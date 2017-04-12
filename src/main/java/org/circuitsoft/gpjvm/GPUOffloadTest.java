@@ -25,7 +25,7 @@ public class GPUOffloadTest {
         long termEnd = System.currentTimeMillis();
 
         System.out.println("Init time (ms): " + (initEnd - initStart));
-        System.out.println("Main run time (ms): " + (runStart - runEnd));
+        System.out.println("Main run time (ms): " + (runEnd - runStart));
         System.out.println("Termination time (ms): " + (termEnd - termStart));
         System.out.println("Total time (ms): " + (termEnd - initStart));
     }
